@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(bg.png);
+    font-size: 16px;
+    color: #333333;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    letter-spacing: .05em;
+}
+header h1 img {
+    border-radius: 50% 50% 0 0 ;
+    width: 550px;
+    height: 660px;
+    margin: 60px auto ;
+    padding-top: 40px;
+}
+header {
+    width: 1240px;
+    height: 850px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+header nav ul li a img {
+    width: 70px;
+    height: 30px;
+}
+header nav ul {
+    display: flex;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    align-items: center;
+}
+header nav ul li {
+    margin: 10px 20px;
+}
+header nav {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header nav ul li a {
+    font-weight: 600;
+    font-size: 18px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.ticket {
+    background-color: #E8703C;
+    padding: 10px 20px;  
+    border-radius: 24px;
+    color: #ffffff;
+}
+p img {
+    width: 700px;
+    height: 90px;
+}
+.logo {
+    width: 100%;
+    text-align: center; 
+    position: relative;
+    bottom: 400px;
+}
+.logo::after {
+    position: relative;
+    content: url(arrow.png);
+    right: 350px;
+    top: 135px;
+}
+.word1 {
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.word2 {
+    text-align: center;
+    position: relative;
+    bottom: 420px;
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: bold;
+}
+.word3 {
+    text-align: center;
+    position: relative;
+    bottom: 410px;
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sec1 {
+    height: 500px;
+}
+.sec1 p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sec2 {
+    height: 800px;
+}
+.sec2 p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.sec2 nav {
+    display: flex;
+    justify-content: center;
+}
+.sec2 nav ul li {
+    margin-bottom: 20px;
+    list-style-type: square;
+}
+.ticket3 {
+    background-color: #E8703C;
+    text-align: center;
+    width: 300px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.ticket3 a:hover {
+    text-decoration: underline;
+}
+.yoga ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.yoga ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.food ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.food ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.music ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.music ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.talk ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.talk ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.meet ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.meet ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contents img {
+    border-radius: 20px;
+}
+.contents {
+    display: flex;
+    width: 850px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.sec3 {
+    height: 1480px;
+}
+.contword {
+    font-weight: 600;
+    margin: 0 auto;
+    height: 50px;
+}
+.contents2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 950px;
+    justify-content: space-around;
+    height: 350px;
+}
+.contents2 img {
+    border-radius: 20px;
+}
+.yoga2 {
+    width: 280px;
+}
+.talk2 {
+    width: 280px;
+}
+.music2 {
+    width: 280px;
+}
+.yoga2 ul li {
+    margin-bottom: 20px;
+}
+.talk2 ul li {
+    margin-bottom: 20px;
+}
+.music2 ul li {
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.guest {
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.guest ul li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gst1 {
+    width: 240px;
+}
+.gst2 {
+    width: 240px;
+}
+.gst3 {
+    width: 240px;
+}
+.gst4 {
+    width: 240px;
+}
+.sec5 {
+    height: 600px;
+}
+.sec6 {
+    height: 1000px;
+}
+.sec6 .sall {
+    color: #E8703C;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+.sec6 .sall::before {
+    content: url(Line\ 1.png);
+    position: absolute;
+    left: 610px;
+    top: 3px;
+}
+.sec6 .sall::after {
+    content: url(Line\ 2.png);
+    position: absolute;
+    right: 612px;
+    top: 3px;
+}
+.sec6 figure {
+    text-align: center;
+    margin-top: 10px;
+}
+.ticket4 {
+    background-color: #E8703C;
+    text-align: center;
+    width: 300px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.ticket4 a:hover {
+    text-decoration: underline;
+}
+.sec6 nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+}
+.sec7 {
+    height: 650px;
+}
+.mapsec {
+    display: flex;
+    justify-content: center;
+}
+.mapsec > .map {
+    flex-basis: 400px;
+    margin-right: 60px;
+}
+.mapsec > .mapsec2 {
+    flex-basis: 400px;
+}
+.mapsec nav ul li {
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+.word {
+    font-weight: 600;
+}
+footer {
+    background-color: #465E33;
+    color: #ffffff;
+    padding: 30px 10px 20px;
+    text-align: center;
+}
+footer nav {
+    margin-bottom: 20px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li {
+    margin: 0 10px;
+}
